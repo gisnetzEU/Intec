@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="registrationForm.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form id="personalInformation" onsubmit="return validateForm()" method="post">
+        <fieldset>
+          <legend>Personal information</legend>
+          First name:<br>
+          <input type="text" name="firstname" required>
+          <br>
+          Last name:<br>
+          <input type="text" name="lastname" required>
+          <br>
+          Birthday : (month and year):<br>
+          <input type="month" name="bdaymonth" required> 
+          <br> 
+          Telephone:<br>
+          <input type="tel" name="tel" >
+          <br> 
+          Email:<br>
+          <input type="email" name="email" required>
+          <br>           
+          Nationality:<br>
+          <select name="nationality" form="personalInformation" required>
+            <option value="EU">EU</option>
+            <option value="noEU">noEU</option>
+          </select>
+          <br>
+          Genre:<br>
+          <input type="radio" name="gender" value="male" checked> Male
+          <input type="radio" name="gender" value="female"> Female<br>
+          <br>
+          <input type="submit" text-align=right>
+        </fieldset>
+      </form>
+      
+</body>
+</html>

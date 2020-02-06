@@ -1,0 +1,22 @@
+body{
+    font-size: 1.3em;;
+}
+form {
+    background-color: #FFC300 ;
+    width: 420px;
+}
+fieldset{
+    width: 330px;
+    font-size: 1.0em;
+    padding: 5% 10% 10% 10%;
+    border-radius: 1%;
+       
+}
+legend{
+    font-size: 1.3em;
+    /*text-align: center;*/
+}
+
+input type{
+    font-size: 1.3em;
+}
