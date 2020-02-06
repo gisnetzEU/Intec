@@ -1,0 +1,4 @@
+step 1 get values of inputs
+var myValue = document.ffff.selectedIndex
+step 2 create p width id classname
+step 3 innerHTML= myValue 
