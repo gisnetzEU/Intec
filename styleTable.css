@@ -1,0 +1,17 @@
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+    display: table-cell;
+    border: 0.5PX solid red;
+    border-radius: 2px;
+}
+
+td{
+    display: table-cell;
+    border: 0.5PX solid red;
+    border-radius: 2px;
+    
+
+}
